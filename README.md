@@ -2,9 +2,9 @@
 Implementation of basic crafting system in Unity
 
 ### Basic planning
-- [x] Create a default scene with character sprite
+- [x] ~~Create a default scene with character sprite~~
 - [ ] Character will have animation like idle, running and minning
-- [ ] Movement system for player
+- [x] ~~Movement system for player~~
 - [ ] Define resources and food items. Randomly respawn them on the map
 - [ ] Create the level in tilemap editor
 - [ ] Define a point on the map for crafting, where the character will go in order to craft new items
@@ -16,3 +16,4 @@ Implementation of basic crafting system in Unity
 - [ ] Define and create health system
 - [ ] Create Main menu screen
 - [ ] Design and develop UX and UI of the game
+- [ ] Add music
