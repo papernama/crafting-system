@@ -23,8 +23,7 @@ public class PlayerMovement : MonoBehaviour{
         anime.SetBool("isRunning", flagRunning);
 
         // Changing face direction of character
-        int angleAxisY = inputX < 0 ? 180 : 0;
-        transform.eulerAngles = new Vector3(0, angleAxisY, 0);
+        GetComponent<SpriteRenderer>().flipX = (inputX < 0);
     }
 
     void FixedUpdate() {
@@ -33,6 +32,11 @@ public class PlayerMovement : MonoBehaviour{
 
         print(inputX);
         print(inputY);
+        print(rb.velocity);
+        print(inputX * speed);
+        print(inputY * speed);
         rb.velocity = new Vector2(inputX * speed, inputY * speed);
+        print(rb.velocity);
+
     }
 }
