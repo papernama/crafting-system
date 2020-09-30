@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour{
         transform.eulerAngles = new Vector3(0, angleAxisY, 0);
     }
 
-    private void FixedUpdate() {
+    void FixedUpdate() {
         inputX = Input.GetAxisRaw("Horizontal");
         inputY = Input.GetAxisRaw("Vertical");
 
