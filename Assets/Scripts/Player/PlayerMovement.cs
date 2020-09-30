@@ -27,6 +27,16 @@ public class PlayerMovement : MonoBehaviour{
     }
 
     void FixedUpdate() {
+        MovePlayer();
+    }
+
+    void MovePlayer() {
+        // Stop movement when player is mining
+        if (anime.GetBool("isMining")) {
+            rb.velocity = new Vector2(0, 0);
+            return;
+        }
+
         inputX = Input.GetAxisRaw("Horizontal");
         inputY = Input.GetAxisRaw("Vertical");
 
