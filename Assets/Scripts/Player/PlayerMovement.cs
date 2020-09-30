@@ -30,13 +30,6 @@ public class PlayerMovement : MonoBehaviour{
         inputX = Input.GetAxisRaw("Horizontal");
         inputY = Input.GetAxisRaw("Vertical");
 
-        print(inputX);
-        print(inputY);
-        print(rb.velocity);
-        print(inputX * speed);
-        print(inputY * speed);
         rb.velocity = new Vector2(inputX * speed, inputY * speed);
-        print(rb.velocity);
-
     }
 }
