@@ -1,7 +1,7 @@
-# crafting-system
+# Crafting System
 Implementation of basic crafting system in Unity
 
-### Basic planning
+### Basic Planning
 - [x] ~~Create a default scene with character sprite~~
 - [ ] Character will have animation like idle, running and minning
 - [x] ~~Movement system for player~~
