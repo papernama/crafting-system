@@ -1,4 +1,6 @@
 # Game Design Document
+![Character Concept](Meta/concept_character.jpg)
+
 ### Game setting
 Astronaut stuck up on an alien planet
 
